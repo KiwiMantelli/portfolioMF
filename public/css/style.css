@@ -1,0 +1,15 @@
+/*heuteur et largeur des images dans le carousel*/
+.carousel-item > img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/*responsive carousel*/
+/* @media (max-width: 767px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+} */
