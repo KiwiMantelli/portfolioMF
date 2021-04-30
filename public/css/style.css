@@ -1,6 +1,6 @@
 
 /*index css*/
-.presentation {
+.index {
   background-image: url(/public/image/wolfgang-hasselmann-FI7hC_1D_CM-unsplash.jpg);
   background-size: cover;
   background-position: bottom;
@@ -9,8 +9,23 @@
  
 }
 
-.title-presentation{
+.title-index{
   font-size: 4em;
+}
+
+.check-work > a {
+  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 40px;
+	line-height: .75;
+
+}
+.btn{
+  border-color: darkolivegreen;
 }
 
 
@@ -28,4 +43,13 @@
   }
 } */
 
+/*english Version*/
 
+.background-header{
+  background-color: #F7CAA2;
+  height: 100vh;
+}
+
+.skills{
+  height: 100vh;
+}
