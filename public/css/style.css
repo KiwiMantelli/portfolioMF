@@ -29,7 +29,28 @@
 }
 
 
-/*hauteur et largeur des images dans le carousel*/
+
+
+/*english Version*/
+
+.background-header{
+  /* background-color: #F7CAA2; */
+  height: 100vh;
+  border:black solid;
+ 
+}
+
+
+.skills{
+  height: 100vh;
+  border:black solid;
+}
+
+/*carousel*/
+.container-carousel{
+height: 100vh;
+}
+
 .carousel-item > img {
   width: 100%;
   height: auto;
@@ -42,14 +63,3 @@
     display: none;
   }
 } */
-
-/*english Version*/
-
-.background-header{
-  background-color: #F7CAA2;
-  height: 100vh;
-}
-
-.skills{
-  height: 100vh;
-}

@@ -1,9 +1,9 @@
 {{!-- en-tête --}}
-<div class="text-center">
+<div class="container-fluid text-center">
 
-    <div class="container-fluid background-header">
+    <div class="d-flex flex-column justify-content-center align-items-center background-header">
         <h1>I am new in this game and I am looking for opportunities and challenges.</h1>
-        <div class="col">
+        <div>
             <h2>About me</h2>
             <p>I begin my journey as web Developer after a bootcamp with Ironhack Paris. During this bootcamp I learned
                 back
@@ -15,13 +15,13 @@
         </div>
     </div>
     {{!-- la présentation --}}
-    <div class="container-fluid skills">
+    <div class="container-fluid d-flex col justify-content-center align-items-center skills ">
 
 
         {{!-- présentation des skills --}}
         <div class=" cols-2 ">
 
-
+            <h2>Skills</h2>
             <div class="row ">
                 <h3 class="col">Front-end Developer</h3>
                 <h3 class="col">Back-end Developer</h3>
@@ -49,8 +49,8 @@
     </div>
 
     {{!-- Carrousel partials --}}
-    <div class="container-fluid">
-        <h1>Project</h1>
+    <div class="container-fluid container-carousel my-5">
+        <h2 class="mb-5">Project</h2>
         {{> carouselProject}}
 
     </div>
