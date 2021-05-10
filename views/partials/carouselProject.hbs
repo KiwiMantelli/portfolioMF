@@ -6,29 +6,38 @@
   </ol>
   <div class="carousel-inner">
     {{!-- première image --}}
-    <div class="carousel-item active video-fluid">
+    <div class="carousel-item active">
 
       <a target="_blank" href="https://kiwimantelli.github.io/Lab-quiz-cin-/">
         <video muted autoplay="autoplay" preload="auto">
           <source src="/public/image/cinequizz.mp4" type="video/mp4" alt="first slide">
         </video>
       </a>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Ciné quizz project</h5>
+      </div>
     </div>
     {{!-- deuxième image --}}
     <div class="carousel-item">
       <a target="_blank" href="https://my-timeline-project.herokuapp.com/">
-        <video muted autoplay="autoplay"  preload="auto">
+        <video muted autoplay="autoplay" preload="auto">
           <source src="/public/image/my_timelineDemo.mp4" type="video/mp4" alt="second slide">
         </video>
       </a>
+      <div class="carousel-caption d-none d-md-block">
+        <h5 >Timeline project collaboration</h5>
+      </div>
     </div>
     {{!-- troisième image --}}
     <div class="carousel-item">
       <a target="_blank" href="https://breakroom-248.herokuapp.com/">
-        <video muted autoplay="autoplay" preload="auto">
+        <video muted autoplay="autoplay" preload="auto" class="w-75" >
           <source src="/public/image/breakroom241.mp4" type="video/mp4" alt="third slide">
         </video>
       </a>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Breakroom 248 project</h5>
+      </div>
     </div>
 
   </div>
@@ -38,7 +47,7 @@
   </a>
   {{!-- les flèches indicatrices du carousel --}}
   <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="carousel-control-next-icon  aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
 </div>
