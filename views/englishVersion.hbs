@@ -1,10 +1,10 @@
 {{!-- en-tête --}}
-<div class="container-fluid text-center">
+<div class="text-center">
     {{!-- section 1 --}}
-    <div class="d-flex flex-column justify-content-center align-items-center header-english">
-        <h1 class="text-uppercase">I am new in this game and I am looking for opportunities and challenges.</h1>
-        <div class="about w-75 mt-5">
-            <h2>About me</h2>
+    <div class="d-flex flex-column justify-content-center align-items-center mb-5 header-english">
+        <h1 class="m-5 text-uppercase ">I am new in this game and I am looking for opportunities and challenges.</h1>
+        <div class="about w-75 ">
+            <h2 class="cmb-4 text-uppercase title-h2">About me</h2>
             <p>I begin my journey as web Developer after a bootcamp with Ironhack Paris. During this bootcamp I learned
                 back
                 and front-end and I created a
@@ -14,55 +14,50 @@
                 curious about everything and currently learning new languages.</p>
         </div>
     </div>
+    <hr class="line-separator">
+
     {{!-- section 2: présentation des skills--}}
-    <div class="container-fluid skill">
+    <div class="container-fluid my-5">
 
-        <div class="d-flex justify-content-center align-items-center h-25">
-            <h2 class="text-uppercase ">Skills</h2>
-        </div>
 
-        <div class="d-flex row justify-content-center align-items-center h-75 skill-list">
+        <h2 class="mb-5 text-uppercase title-h2">Skills</h2>
 
-            <div class="row justify-content-around" style="width: 100%;">
-                <img class="img-fluid rounded" style="heigh: 200px; width: 200px"
-                    src="/public/image/front-endAvatar.jpg" alt="front-end avatar">
-                <img class="img-fluid rounded" style="heigh: 200px; width: 200px" src="/public/image/back-endAvatar.jpg"
-                    alt="back-end avatar">
-            </div>
-            <div class="row width-subtitle">
-                <h3 class="col">Front-end Developer</h3>
-                <h3 class="col">Back-end Developer</h3>
-            </div>
 
-            <div class="row" style="width: 100vw;">
-
-                <ul class="col">
+        <div class="d-flex justify-content-around skill-list">
+            <div>
+                <img class="img rounded" src="/public/image/front-endAvatar.jpg" alt="front-end avatar">
+                <h3 class="mt-5 mb-4">Front-end Developer</h3>
+                <ul>
                     <li>JavaScript</li>
                     <li>HTML</li>
                     <li>CSS</li>
+                    <li>Bootstrap</li>
                     <li>React</li>
                     <li>Codepen</li>
                     <li>Github</li>
                 </ul>
+            </div>
 
-                <ul class="col">
+            <div>
+                <img class="img rounded" src="/public/image/back-endAvatar.jpg" alt="back-end avatar">
+                 <h3 class="mt-5 mb-4">Back-end Developer</h3>
+                 <ul>
                     <li>ExpressJS</li>
                     <li>NodeJS</li>
                     <li>MongoDB</li>
                     <li>Mongoose</li>
                 </ul>
-
             </div>
 
         </div>
 
-
     </div>
+    <hr class="line-separator">
 
 
     {{!-- Section 3: Carrousel partials --}}
-    <div class="container-fluid container-carousel my-5">
-        <h2 class="mb-5">Project</h2>
+    <div class="container-fluid my-5">
+        <h2 class="mb-5 text-uppercase title-h2">Project</h2>
         {{> carouselProject}}
 
     </div>
