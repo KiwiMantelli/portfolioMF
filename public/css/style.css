@@ -1,3 +1,10 @@
+/*responsive nav-bar*/
+@media (max-width: 989px) {
+  .collapse {
+    display: inline-block;
+  }
+}
+
 /*index css*/
 .index {
   background-image: url(/public/image/wolfgang-hasselmann-FI7hC_1D_CM-unsplash.jpg);
@@ -11,7 +18,7 @@
 }
 
 .check-work > a {
-  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+  background-image: url(https://media.giphy.com/media/d5PPYjcb3caPTHM3hv/giphy.gif);
   background-size: cover;
   color: transparent;
   -moz-background-clip: text;
@@ -21,18 +28,18 @@
   line-height: 0.75;
 }
 .btn {
-  border-color: darkolivegreen;
+  border-color: rgb(82, 82, 211);
 }
 
 @media (max-width: 776px) {
-  .title-index{
+  .title-index {
     font-size: 2em;
   }
-  .index h2{
+  .index h2 {
     font-size: 1.5em;
   }
 
-  .check-work > a{
+  .check-work > a {
     font-size: 20px;
   }
 }
@@ -51,20 +58,16 @@
 /*section 1*/
 .header-english {
   height: 80vh;
-
 }
 
 .header-english h1 {
   font-size: 3.5em;
   line-height: 1.5em;
-  
 }
 
 .about {
   line-height: 2em;
- 
 }
-
 
 /*section 2*/
 
@@ -95,10 +98,6 @@
 
 /*responsive English*/
 @media (max-width: 776px) {
-  /*navBar*/
-  .collapse {
-    display: inline-block;
-  }
   /*page en anglais*/
   .header-english {
     height: 100%;
