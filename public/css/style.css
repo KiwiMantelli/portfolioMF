@@ -1,3 +1,17 @@
+@font-face {
+    font-family: roboto-condensed;
+    src: url("/public/font/RobotoCondensed-Regular.ttf");
+}
+
+@font-face{
+  font-family: courgette;
+  src: url("/public/font/Courgette-Regular.ttf")
+}
+
+*{
+  font-family: "roboto-condensed";
+}
+
 /*responsive nav-bar*/
 @media (max-width: 989px) {
   .collapse {
@@ -15,6 +29,7 @@
 
 .title-index {
   font-size: 4em;
+  font-family: "courgette";
 }
 
 .check-work > a {
@@ -44,7 +59,7 @@
   }
 }
 
-/*english Version*/
+/*Project page*/
 
 .title-h2 {
   font-size: 2.5em;
@@ -56,11 +71,11 @@
 }
 
 /*section 1*/
-.header-english {
+.header-presentation {
   height: 80vh;
 }
 
-.header-english h1 {
+.header-presentation h1 {
   font-size: 3.5em;
   line-height: 1.5em;
 }
@@ -96,13 +111,18 @@
   margin-bottom: 15px;
 }
 
-/*responsive English*/
+.description{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+/*responsive projet*/
 @media (max-width: 776px) {
-  /*page en anglais*/
-  .header-english {
+
+  .header-presentation {
     height: 100%;
   }
-  .header-english h1 {
+  .header-presentation h1 {
     font-size: 2em;
   }
   .title-h2 {

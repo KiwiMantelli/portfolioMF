@@ -1,64 +1,89 @@
-{{!-- en-tête --}}
+{{! en-tête }}
 <div class="text-center">
-    {{!-- section 1 --}}
-    <div class="d-flex flex-column justify-content-center align-items-center mb-5 header-english">
-        <h1 class="m-5 text-uppercase ">I am new in this game and I am looking for opportunities and challenges.</h1>
-        <div class="about w-75 ">
-            <h2 class="cmb-4 text-uppercase title-h2">About me</h2>
-            <p>I begin my journey as web Developer after a bootcamp with Ironhack Paris. During this bootcamp I learned
-                back
-                and front-end and I created a
-                game and two applications in collaboration. You are welcome to check my projects below. <br>I love
-                coding.
-                I'm
-                curious about everything and currently learning new languages.</p>
-        </div>
+  {{! section 1 }}
+  <div
+    class="d-flex flex-column justify-content-center align-items-center mb-5 header-presentation"
+  >
+    <h1 class="m-5 text-uppercase">I am new in this game and I am looking for
+      opportunities and challenges.</h1>
+    <div class="about w-75">
+      <h2 class="cmb-4 text-uppercase title-h2">About me</h2>
+      <p>I begin my journey as web Developer after a bootcamp with Ironhack
+        Paris. During this bootcamp I learned back and front-end and I created a
+        game and two applications in collaboration. You are welcome to check my
+        projects below.
+        <br />I love coding. I'm curious about everything and currently learning
+        new languages.</p>
     </div>
-    <hr class="line-separator">
+  </div>
+  <hr class="line-separator" />
 
-    {{!-- section 2: présentation des skills--}}
-    <div class="container-fluid my-5">
+  {{! section 2: présentation des skills}}
+  <div class="container-fluid my-5">
 
+    <h2 class="mb-5 text-uppercase title-h2">Skills</h2>
 
-        <h2 class="mb-5 text-uppercase title-h2">Skills</h2>
+    <div class="d-flex justify-content-around skill-list">
+      <div>
+        <img
+          class="img rounded"
+          src="/public/image/front-endAvatar.jpg"
+          alt="front-end avatar"
+        />
+        <h3 class="mt-5 mb-4">Front-end Developer</h3>
+        <ul>
+          <li>JavaScript</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Bootstrap</li>
+          <li>React</li>
+          <li>Codepen</li>
+          <li>Github</li>
+        </ul>
+      </div>
 
-
-        <div class="d-flex justify-content-around skill-list">
-            <div>
-                <img class="img rounded" src="/public/image/front-endAvatar.jpg" alt="front-end avatar">
-                <h3 class="mt-5 mb-4">Front-end Developer</h3>
-                <ul>
-                    <li>JavaScript</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Bootstrap</li>
-                    <li>React</li>
-                    <li>Codepen</li>
-                    <li>Github</li>
-                </ul>
-            </div>
-
-            <div>
-                <img class="img rounded" src="/public/image/back-endAvatar.jpg" alt="back-end avatar">
-                 <h3 class="mt-5 mb-4">Back-end Developer</h3>
-                 <ul>
-                    <li>ExpressJS</li>
-                    <li>NodeJS</li>
-                    <li>MongoDB</li>
-                    <li>Mongoose</li>
-                </ul>
-            </div>
-
-        </div>
-
-    </div>
-    <hr class="line-separator">
-
-
-    {{!-- Section 3: Carrousel partials --}}
-    <div class="container-fluid my-5">
-        <h2 class="mb-5 text-uppercase title-h2">Projects</h2>
-        {{> carouselProject}}
+      <div>
+        <img
+          class="img rounded"
+          src="/public/image/back-endAvatar.jpg"
+          alt="back-end avatar"
+        />
+        <h3 class="mt-5 mb-4">Back-end Developer</h3>
+        <ul>
+          <li>ExpressJS</li>
+          <li>NodeJS</li>
+          <li>MongoDB</li>
+          <li>Mongoose</li>
+        </ul>
+      </div>
 
     </div>
+
+  </div>
+  <hr class="line-separator" />
+
+  {{! Section 3: Carrousel partials }}
+  <div class="container-fluid my-5">
+    <h2 class="mb-5 text-uppercase title-h2">Projects</h2>
+    {{> carouselProject}}
+
+    <div class="my-5 description">
+      <div>
+        <h3>Project 1: a quiz</h3>
+        <p>My first project is a quiz with four answers, one right answer and three level of difficulties. It made with HTML, CSS and
+          JavaScript.</p>
+      </div>
+      <div class="my-5">
+        <h3>Project 2: My Timeline</h3>
+        <p> This project is in collaboration with two other people. The purpose of the application is to keep in a timeline some events of your life by topic, for example the best books you read this yer. The app is made with ExpressJS, HTML, CSS
+          and JavaScript.</p>
+      </div>
+      <div>
+        <h3>Project 3: Breakroom 241</h3>
+        <p>Another collaborative application with the same team. This application is for web developper users, to keep their snippets, templates and tips reachable and share with friends or coworkers their good ideas. The app is made with React, NodeJS,
+          JavaScript, HTML and CSS.
+        </p>
+      </div>
+    </div>
+  </div>
 </div>
